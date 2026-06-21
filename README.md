@@ -36,6 +36,9 @@
   
 - 在 **Variables** 部分，最下方添加变量：
   - `READ_NUM`：设定每次阅读的目标次数。
+  - 不配任何新变量 → 默认随机 5~30 分钟
+  - 想改随机范围 → 在 Action Variables 里加 READ_EXTRA_MIN / READ_EXTRA_MAX（单位是"次"，1 次 = 0.5 分钟）
+  - 想关掉随机 → 设 READ_EXTRA_MIN=0 READ_EXTRA_MAX=0
 
 
 - 基本释义：
